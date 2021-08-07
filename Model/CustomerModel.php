@@ -42,26 +42,6 @@ class CustomerModel extends DatabaseModel
 		mysqli_query($con, $sql);
 		$this->close($con);
 	}
-
-	// public function getById($id){
-	// 	$con = $this->open();
-
-	// 	$sql = "SELECT * FROM `view_student` WHERE idStudent = $id";
-
-	// 	$result = mysqli_query($con, $sql);
-
-	// 	$this->close($con);
-		
-	// 	$item = mysqli_fetch_assoc($result);
-	// 	$student = new StudentModel();
-	// 	$student->idClass = $item["idClass"];
-	// 	$student->nameClass = $item["nameClass"];
-	// 	$student->idStudent = $item["idStudent"];
-	// 	$student->nameStudent = $item["nameStudent"];
-	// 	$student->gender = $item["gender"];
-	// 	return $student;
-		
-	// }
 	
 }
 	

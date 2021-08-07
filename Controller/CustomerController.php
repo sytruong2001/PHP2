@@ -31,7 +31,7 @@ class CustomerController
 		$phone = $_POST["phone"];
 		$email = $_POST["email"];
 
-		$customer = new CustomertModel();
+		$customer = new CustomerModel();
 		$customer->avatar = $avatar;
 		$customer->fullname = $fullname;
 		$customer->gender = $gender;
