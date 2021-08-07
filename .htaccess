@@ -1,0 +1,7 @@
+RewriteEngine ON
+
+	RewriteRule ^(\w+)$ ?controller=$1
+
+	RewriteRule ^(\w+)/(\w+)$ ?controller=$1&action=$2
+
+	RewriteRule ^(\w+)/(\w+)/([1-9]+)$ ?controller=$1&action=$2&id=$3
